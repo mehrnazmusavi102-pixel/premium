@@ -204,13 +204,12 @@ def main_reply_keyboard(user_id=None):
             ],
             # ردیف ۲: کیف پول / تمدید — سبز
             [
-                KeyboardButton(text=db.get_text_override("main_wallet", "کیف پول"), style="success"),
-                KeyboardButton(text=db.get_text_override("main_renew", "تمدید"), style="success"),
+                KeyboardButton(text=db.get_text_override("main_configs", "سرویس‌های من"), style="primary"),
             ],
             # ردیف ۳: پروفایل / سرویس‌های من — آبی
             [
                 KeyboardButton(text=db.get_text_override("main_profile", "پروفایل"), style="primary"),
-                KeyboardButton(text=db.get_text_override("main_configs", "سرویس‌های من"), style="primary"),
+                KeyboardButton(text=db.get_text_override("main_wallet", "کیف پول"), style="primary"),
             ],
             # ردیف ۴: راهنما / پشتیبانی — آبی
             [
